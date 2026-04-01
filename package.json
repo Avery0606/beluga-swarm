@@ -1,10 +1,21 @@
 {
+  "version": "0.1.0",
   "scripts": {
-    "bootstrap": "npm install && cd opencode-plugin && npm install",
-    "setup-skills": "node scripts/setup-skills.js"
+    "bootstrap": "npm ci && cd opencode-plugin && npm ci",
+    "setup-skills": "node scripts/setup-skills.js",
+    "lint": "eslint . --fix",
+    "test": "vitest run",
+    "build": "tsc --noEmit && cd opencode-plugin && tsc --noEmit",
+    "ci": "npm run build && npm run lint && npm run test",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "eslint": "^9.6.1",
+    "vitest": "^2.0.5",
+    "@typescript-eslint/parser": "^8.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "husky": "^9.0.11"
   }
 }
