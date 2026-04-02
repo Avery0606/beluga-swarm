@@ -93,12 +93,8 @@ export function createInspector(): AgentConfig {
         "git log *": "allow",
       },
       webfetch: "deny",
-      todowrite: "deny",
-      skill: "allow",
-      task: {
-        "*": "deny"
-      }
-    },
+      skill: "allow"
+    } as any,
     prompt,
   }
 }

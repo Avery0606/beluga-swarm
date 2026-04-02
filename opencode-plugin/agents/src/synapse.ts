@@ -80,14 +80,8 @@ export function createSynapse(): AgentConfig {
         "git rebase *": "ask",
         "git checkout -f": "ask",
         "rm -rf .git": "ask",
-      },
-      task: {
-        "*": "deny",
-        "oracle": "allow",
-        "ares": "allow",
-        "inspector": "allow"
-      },
-    },
+      }
+    } as any,
     prompt,
   }
 }
