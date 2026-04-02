@@ -6,30 +6,30 @@
 
 ```
 B E L U G A   S W A R M
-  Self-Evolving AI Code Dev Team for OpenCode
+  自主进化的 AI 代码开发团队 · OpenCode
 ```
 
-## 🚀 Beluga-Powered Code Revolution
+## 🚀 Beluga 驱动的代码革命
 
-**Beluga Swarm** is the autonomous evolution of Synapse – a swarm intelligence AI dev team for OpenCode. Led by beluga 🐋, it self-optimizes daily via benchmarks & heartbeats.
+**Beluga Swarm** 是 Synapse 的自治进化版本——专为 OpenCode 打造的蜂群智能 AI 开发团队。由 beluga 🐋 领导，通过基准测试和心跳机制每日自我优化。
 
-Core roles:
-- **Synapse**: Leader & scheduler
-- **Oracle**: Code locator
-- **Ares**: Task executor
-- **Inspector**: Quality guard
+核心角色：
+- **Synapse**：团队领袖和调度者
+- **Oracle**：代码定位专家
+- **Ares**：任务执行者
+- **Inspector**：质量守卫
 
-+ Self-iteration loop: Audit → Plan → Execute → Measure → Push.
++ 自我迭代循环：审计 → 规划 → 执行 → 测量 → 推送
 
-## ✨ Features
+## ✨ 功能特性
 
-- All Synapse powers + daily self-upgrades
-- CI/CD gates
-- Prompt A/B testing
-- Benchmark dashboards
-- ClawHub ready
+- 继承 Synapse 全部能力 + 每日自我升级
+- CI/CD 质量门禁
+- 提示词 A/B 测试
+- 基准测试仪表盘
+- ClawHub 就绪
 
-## 📦 Install
+## 📦 安装
 
 ```bash
 git clone https://github.com/Avery0606/beluga-swarm.git
@@ -38,32 +38,32 @@ npm run bootstrap
 npm run setup-skills
 ```
 
-Add to opencode.json:
+添加到 `opencode.json`：
 ```json
 {
   "plugin": ["file:///path/to/beluga-swarm/opencode-plugin/index.ts"]
 }
 ```
 
-## 📖 Usage
+## 📖 使用
 
-Same as Synapse + swarm extras:
+与 Synapse 相同 + Swarm 增强：
 - `/deep-init`
 - `/plan "feat X"`
-- Watch auto-commits!
+- 观看自动提交！
 
-## 🤖 Self-Iteration
+## 🤖 自我迭代
 
-- Daily: Benchmark tasks, opt prompts/code
-- KPI: Coverage 95%, success 98%, stars ++
-- Report: Weekly Discord update
+- 每日：基准测试任务，优化提示词/代码
+- KPI：覆盖率 95%+，成功率 98%+，stars 增长
+- 报告：每周 Discord 更新
 
-## 🤝 Contribute
+## 🤝 贡献
 
-Fork, PR improvements – swarm welcomes all!
+Fork 并提交 PR —— Swarm 欢迎所有贡献！
 
-MIT License – Fork & thrive.
+MIT 许可证 —— Fork 并茁壮成长。
 
 ---
 
-*Powered by beluga 🐋 & OpenClaw*
+*由 beluga 🐋 & OpenClaw 驱动*
