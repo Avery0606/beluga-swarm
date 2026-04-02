@@ -73,12 +73,8 @@ export function createOracle(): AgentConfig {
       edit: "deny",
       "bash": "deny",
       "webfetch": "deny",
-      "todowrite": "deny",
-      "skill": "deny",
-      task: {
-        "*": "deny"
-      }
-    },
+      "skill": "deny"
+    } as any,
     prompt: basePrompt,
   }
 
